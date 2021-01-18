@@ -14,7 +14,7 @@ public class Test {
 		e.agregararticulos(l);
 		e.agregararticulos(h);
 		e.agregararticulos(lq);
-		
+		e.compar();
 		//e.mostrarArticulos();
 		
 	}

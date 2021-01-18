@@ -34,7 +34,10 @@ public abstract class Articulo {
 	public String toString() {
 		return " [marca=" + marca + ", modelo=" + modelo + ", precio=" + precio + "]";
 	}
-
+	
+	public String detalles() {
+		 return " [marca=" + marca + ", modelo=" + modelo + ", precio=" + precio + "]";
+	}
 	
 	
 	

@@ -12,8 +12,14 @@ public class Licuadora extends Articulo {
 	}
 
 	@Override
-	public String toString() {
-		return "Licuadora" + super.toString();
+	public String detalles() {
+		return "Licuadora" +  super.detalles();
 	}
 
+	@Override
+	public String toString() {
+		return detalles()+"[watts=" + watts + ", velocidad=" + velocidad + "]";
+	}
+
+	
 }

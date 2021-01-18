@@ -12,8 +12,14 @@ public class Lavarropa extends Articulo {
 	}
 
 	@Override
-	public String toString() {
-		return "Lavarropa" +  super.toString();
+	public String detalles()  {
+		return "Lavarropa" +  super.detalles();
 	}
 
+	@Override
+	public String toString() {
+		return detalles()+ "[carga=" + carga + ", automatico=" + automatico + "]";
+	}
+
+		
 }

@@ -17,8 +17,13 @@ public class Heladera extends Articulo {
 	}
 
 	@Override
+	public String detalles()  {
+		return "Heladera" + super.detalles();
+	}
+
+	@Override
 	public String toString() {
-		return "Heladera" + super.toString();
+		return   detalles()+ " [capacidad=" + capacidad + ", frost=" + frost + "]";
 	}
 
 	

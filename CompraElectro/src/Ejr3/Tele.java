@@ -16,8 +16,14 @@ public class Tele extends Articulo {
 	}
 
 	@Override
-	public String toString() {
-		return "Tv" + super.toString();
+	public String detalles() {
+		return "Tv" +  super.detalles();
 	}
+
+	@Override
+	public String toString() {
+		return detalles()+"[pulgada=" + pulgada + ", smart=" + smart + "]";
+	}
+	
 
 }
